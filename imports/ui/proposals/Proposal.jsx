@@ -285,8 +285,8 @@ export default class Proposal extends Component{
 
                 return <div>
                     <Helmet>
-                        <title>{this.props.proposal.content.title} | Big Dipper</title>
-                        <meta name="description" content={this.props.proposal.content.description} />
+                        <title>Governance Proposals on Gravity Bridge | SkyNet Explorers by Paullovette.com</title>
+                        <meta name="description" content="Gravity Bridge incorporates on-chain governance. Come to see how on-chain governance can be achieved on SkyNet Explorers by Paullovette.com." />
                     </Helmet>
 
                     <div className="proposal bg-light">

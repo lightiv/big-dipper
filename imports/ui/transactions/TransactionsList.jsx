@@ -85,8 +85,8 @@ export default class Transactions extends Component{
     render(){
         return !this.props.homepage ?  <div id="transactions">
             <Helmet>
-                <title>Latest Transactions on {Meteor.settings.public.chainName} | Big Dipper</title>
-                <meta name="description" content="See what is happening on {Meteor.settings.public.chainName}" />
+                <title>Latest Transactions on Gravity Bridge | SkyNet Explorers by Paullovette.com</title>
+                <meta name="description" content="See what is happening on Gravity Bridge." />
             </Helmet>
             <Row>
                 <Col md={3} xs={12}><h1 className="d-none d-lg-block"><T>transactions.transactions</T></h1></Col>
